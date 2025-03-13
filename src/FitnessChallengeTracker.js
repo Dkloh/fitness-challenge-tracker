@@ -15,7 +15,7 @@ const FitnessChallengeTracker = () => {
   };
 
   const rewards = [
-    { milestone: 7, reward: "Buy winter sneakers" },
+    { milestone: 7, reward: "Buy sneakers" },
     { milestone: 15, reward: "Have a Spice Brothers sandwich" },
     { milestone: 22, reward: "Rolos" },
     { milestone: 30, reward: "Get a massage!" }
