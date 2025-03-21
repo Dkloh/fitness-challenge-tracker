@@ -14,6 +14,7 @@ const FitnessChallengeTracker = () => {
   };
 
   const rewards = [
+
     { milestone: 7, reward: "Get yourself a fancy BEC" },
     { milestone: 15, reward: "Have a Spice Brothers sandwich" },
     { milestone: 22, reward: "Rolos; BURGER" },
