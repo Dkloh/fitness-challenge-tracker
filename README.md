@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Fitness Challenge Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern fitness challenge tracker built with React, Firebase, and Lucide icons. Track your 30-day fitness journey, earn rewards, and save your progress in the cloud.
 
-## Available Scripts
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://fitness-challenge-tracker.vercel.app/login)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue)](https://github.com/your-username/fitness-challenge-tracker)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Daily Goals**: Track 40 push-ups and 40 squats daily.
+- **Progress Tracking**: View completed days and milestones.
+- **Rewards System**: Unlock rewards at 7, 15, 22, and 30 days.
+- **Firebase Integration**: Save your progress securely in Firestore.
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## How to Use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Complete a Day**:
+   - Click "Complete Day" to log your daily workout.
 
-### `npm run build`
+2. **Track Progress**:
+   - View your progress and current reward milestone.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Undo or Reset**:
+   - Undo the last day or reset the entire challenge.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Logout**:
+   - Securely log out of your account.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Front-End**: React, Tailwind CSS
+- **Back-End**: Firebase (Firestore, Authentication)
+- **Icons**: Lucide React
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run the app locally:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/fitness-challenge-tracker.git
+   cd fitness-challenge-tracker
