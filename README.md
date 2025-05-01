@@ -47,5 +47,5 @@ To run the app locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/fitness-challenge-tracker.git
+   git clone https://github.com/dkloh/fitness-challenge-tracker.git
    cd fitness-challenge-tracker
